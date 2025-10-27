@@ -1,0 +1,7 @@
+env/
+pycache/
+.ipynb_checkpoints/
+.DS_Store
+data/raw_papers/
+data/extracted_text/
+
