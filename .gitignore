@@ -1,7 +1,23 @@
-env/
-pycache/
-.ipynb_checkpoints/
+
+# OS junk
 .DS_Store
+
+# Python cache
+pycache/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoint autosaves
+.ipynb_checkpoints/
+
+# Conda environments / venvs
+env/
+.venv/
+
+# Do not upload raw source PDFs or intermediate large outputs
 data/raw_papers/
 data/extracted_text/
+
+# Anything temporary / logs
+*.log
 
